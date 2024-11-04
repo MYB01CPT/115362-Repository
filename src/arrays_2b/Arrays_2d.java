@@ -4,6 +4,7 @@
  */
 package arrays_2b;
 
+import java.util.Scanner;
 import javax.swing.JOptionPane;
 
 /**
@@ -152,5 +153,12 @@ public class Arrays_2d {
             }
             System.out.println("");//move to the next row
         }
+        
+        System.out.println("");
+        Scanner sc = new Scanner (System.in);
+        System.out.println("Please enter a value: ");
+        String anything = sc.next();
+        
+        System.out.println("Your value was: '" + anything + "'.");
     }
 }
